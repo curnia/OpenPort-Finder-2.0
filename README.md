@@ -4,14 +4,14 @@ The OpenPort-Finder2.0 is a Python script designed to find open ports on a speci
 **Prerequisites**
 Before running the OpenPort-Finder2.0 script, you must have the Scapy library installed. You can install Scapy using the following command:
 
-Copy code
-pip install scapy
+
+**pip install scapy**
 
 
 
 **Usage**
 To use the OpenPort-Finder2.0 script, simply run the script and specify the target IP address and port. For example:
 
-Copy code
-python OpenPort-Finder2.0.py 192.168.1.1 80
+
+**python OpenPort-Finder2.0.py 192.168.1.1 80**
 The script will then send a SYN packet to the specified IP address and port, and print a message indicating whether the port is open or closed.
